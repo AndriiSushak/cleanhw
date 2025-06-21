@@ -1,6 +1,4 @@
-name: GitHub Actions Demo
-
-run-name: ${{ github.actor }} is testing out GitHub Actions
+name: Case study
 
 on:
 
@@ -12,7 +10,7 @@ jobs:
 
   Explore-GitHub-Actions:
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
 
